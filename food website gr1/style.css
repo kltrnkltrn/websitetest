@@ -1,0 +1,180 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+  /* background-color: rgb(220, 215, 210); */
+}
+
+.header {
+  background-color: rgb(220, 215, 210);
+  background-image: url("images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+#logo img {
+  height: 40px;
+}
+
+#logo {
+  float: right;
+  margin-right: 60px;
+  margin-top: 60px;
+}
+
+.header h1 {
+  display: inline-block;
+  margin-top: 180px;
+  color: rgb(220, 210, 80);
+  font-size: 3.5em;
+}
+
+.header p {
+  width: 50%;
+}
+
+.header h1,
+.header p,
+.download {
+  margin-left: 5%;
+}
+
+.download a,
+.download button {
+  border: 2px solid rgb(220, 210, 80);
+  color: rgb(220, 210, 80);
+  border-radius: 15px;
+  padding: 5px 80px 5px 80px;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.download a {
+  text-decoration: none;
+}
+
+/* Partners style */
+.partners {
+  margin: 60px auto 60px auto;
+  width: 80%;
+}
+.partners h2 {
+  color: rgb(220, 210, 80);
+  text-align: center;
+}
+
+.partners img {
+  display: inline-block;
+  width: 25%;
+}
+
+/* Our story style */
+
+.story {
+  padding: 5%;
+  margin: auto;
+  width: 60%;
+}
+
+.story div {
+  margin: 100px 0;
+}
+
+/* .story p,
+.story h3,
+hr {
+} */
+
+.story h2,
+.contact h2,
+.faqs h2 {
+  color: rgb(220, 210, 80);
+  font-family: "Roboto";
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.story01 img {
+  float: right;
+  height: 450px;
+  margin-left: 60px;
+  margin-right: 40px;
+  margin-top: -50px;
+}
+
+.story02 img {
+  float: left;
+  height: 450px;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-top: -50px;
+}
+hr {
+  width: 60px;
+  border-bottom: 2px solid;
+  float: left;
+}
+
+.contact {
+  background-color: rgb(255, 255, 255);
+  padding: 0 100px;
+  width: 60%;
+  margin: auto;
+}
+
+.contact input,
+textarea {
+  display: block;
+  border: none;
+  border-bottom: 1px solid;
+  width: 250px;
+  padding: 5px;
+}
+
+textarea {
+  height: 80px;
+  background-color: rgb(220, 215, 210);
+}
+
+.contact input[type="submit"] {
+  border: 2px solid gray;
+  color: gray;
+  border-radius: 15px;
+  padding: 5px 80px 5px 80px;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.faqs01,
+.faqs02 {
+  display: inline-block;
+}
+
+.contactinfo,
+.faqs02 {
+  float: right;
+}
+
+.faqs {
+  width: 60%;
+  margin: auto;
+  padding: 100px;
+}
+
+div.footer {
+  text-align: center;
+}
+
+#totop {
+  display: inline-block;
+  background-color: rgb(220, 210, 80);
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin: -120px 100px 100px auto;
+  border-radius: 50%;
+}
+#totop img {
+  width: 20px;
+  margin: 15px;
+}
